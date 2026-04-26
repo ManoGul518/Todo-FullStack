@@ -4,7 +4,7 @@ import TodoList from './components/TodoList';
 import './style.css';
 
 function App() {
-  const API_BASE = 'https://todo-app-assignment.up.railway.app';
+  const API_BASE = 'https://todo-fullstack-app-production-5eed.up.railway.app';
   const [todos, setTodos] = useState([]);
   const [filter, setFilter] = useState('all');
   const [loading, setLoading] = useState(true);
